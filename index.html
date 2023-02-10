@@ -159,20 +159,18 @@
         <h2>Ready To Build Your Community?</h2>
         <a href="#" class="main-btn">Get Started For Free</a>
       </section>
+      <picture>
+        <source
+          media="(min-width: 800px)"
+          srcset="./images/bg-footer-top-desktop.svg"
+        />
+        <img
+          src="./images/bg-footer-top-mobile.svg"
+          alt="bg-footer-top-mobile"
+          class="w-full"
+        />
+      </picture>
     </main>
-
-    <picture>
-      <source
-        media="(min-width: 800px)"
-        srcset="./images/bg-footer-top-desktop.svg"
-      />
-      <img
-        src="./images/bg-footer-top-mobile.svg"
-        alt="bg-footer-top-mobile"
-        class="w-full"
-      />
-    </picture>
-
     <footer>
       <div class="footer-container">
         <div class="left-footer">
@@ -223,7 +221,7 @@
           </p>
           <div class="form-group">
             <label for="email" class="visually-hidden">email</label>
-            <input type="email" require name="email" />
+            <input type="email" required id="email" name="email" />
             <button class="submit">Subscribe</button>
           </div>
         </form>
